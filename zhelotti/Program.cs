@@ -38,7 +38,8 @@
 			while(!sr.EndOfStream)
 			{
 				string sor=sr.ReadLine();
-				Console.WriteLine(sor);
+				string[] d = sor.Split();
+Console.WriteLine($"ár:{ d[1]} kódja: {d[3]}");
 			}
 		}
 	}
